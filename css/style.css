@@ -1,5 +1,12 @@
+/*
+    Theme Name: Amoeba
+    Theme URL: https://bootstrapmade.com/free-one-page-bootstrap-template-amoeba/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+*/
+
 /* ==== Google font ==== */
-@import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,300,700,900');
 /* === fontawesome === */
 @import url('font-awesome.css');
 /* ==== overwrite bootstrap standard ==== */
@@ -765,7 +772,11 @@ nav#filter a {
 	margin-bottom:30px;
 }
 
-#sendmessage.show,.show  {
+#errormessage {
+    display:none;
+}
+
+#sendmessage.show, #errormessage.show, .show {
 	display:block;
 }
 
@@ -856,10 +867,11 @@ div.cform-response-output {
 }
 
 /* google map */
-/* #map {
-	height: 500px;
-} */
-
+#google-map{
+	position:relative;
+	margin-top:10px;
+    height: 400px;
+}
 
 /*====================
   Clients

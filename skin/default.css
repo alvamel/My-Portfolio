@@ -65,7 +65,7 @@ a:hover {
 
 /* contact */
 .validation {
-	color:#35A49C;
+	color: red;
 }
 
 /* footer */
@@ -75,4 +75,12 @@ a:hover {
 
 a.scrollup{
 	background:#35A49C;
+}
+
+#sendmessage {
+    color: green;
+}
+
+#errormessage {
+    color: red;
 }
